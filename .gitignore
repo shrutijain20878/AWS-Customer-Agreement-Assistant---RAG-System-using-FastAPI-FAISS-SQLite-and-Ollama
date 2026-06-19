@@ -1,0 +1,39 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual Environment
+venv/
+.env
+
+# VS Code
+
+.vscode/
+# Streamlit
+
+.streamlit/
+
+# Database Files
+*.db
+backend/logs.db
+
+# Vector Store Files
+
+vector_store/
+*.index
+*.pkl
+
+# OS Files
+.DS_Store
+Thumbs.db
+# Testing / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+# Model Cache (Optional)
+.cache/
+
+# Explicit cache folders
+backend/__pycache__/
+backend/rag/__pycache__/
